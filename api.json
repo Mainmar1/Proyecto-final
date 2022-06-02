@@ -1,38 +1,38 @@
 [
     {
-        "precio": 500,
+        "precio": 800,
         "id": 1,
         "title": "Café",
-        "thumbnailUrl": "https://www.cocinayvino.com/wp-content/uploads/2016/09/tazadecafe-1-1200x900.jpg"
+        "thumbnailUrl": "https://angelitagolosinas.com.ar/wp-content/uploads/2020/03/18-LA-VIRGINIA-CAFE-INST.-EN-SOBRE-36-X-1.7-GRS..jpg"
     },
     {
-        "precio": 300,
+        "precio": 400,
         "id": 2,
-        "title": "Pizza",
-        "thumbnailUrl": "https://picsum.photos/id/10/600"
+        "title": "Aceite",
+        "thumbnailUrl": "https://jumboargentina.vtexassets.com/arquivos/ids/614663-500-auto?v=637409202878630000&width=500&height=auto&aspect=true"
     },
     {
-        "precio": 100,
+        "precio": 120,
         "id": 3,
         "title": "Agua",
-        "thumbnailUrl": "https://picsum.photos/id/20/600"
+        "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_753182-MLA47245929998_082021-O.webp"
     },
     {
-        "precio": 50,
+        "precio": 140,
         "id": 4,
-        "title": "Sandía",
-        "thumbnailUrl": "https://picsum.photos/id/30/600"
+        "title": "Leche",
+        "thumbnailUrl": "https://ardiaprod.vteximg.com.br/arquivos/ids/219847-500-500/Leche-Entera-La-Serenisima-3--Larga-vida-1-Lt-_1.jpg?v=637790488158100000"
     },
     {
-        "precio": 10,
+        "precio": 250,
         "id": 5,
-        "title": "Mango",
-        "thumbnailUrl": "https://picsum.photos/id/40/600"
+        "title": "Queso",
+        "thumbnailUrl": "https://alimaksrl.com.ar/wp-content/uploads/2021/03/queso-holanda-envasado-01.jpg"
     },
     {
         "precio": 150,
         "id": 6,
-        "title": "Chela",
-        "thumbnailUrl": "https://picsum.photos/id/50/600"
+        "title": "Galletitas",
+        "thumbnailUrl": "https://elbanquito.com.ar/wp-content/uploads/2020/08/granix-frutigran-galletitas-dulces-x-255-grs-el-banquito-market.jpg"
     }
 ]
