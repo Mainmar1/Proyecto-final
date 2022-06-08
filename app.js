@@ -109,6 +109,7 @@ if(Object.keys(carrito).length === 0){
 const template = document.querySelector('#template-footer').content
 const fragment = document.createDocumentFragment()
 
+
 const nCantidad = Object.values(carrito).reduce((acc, {cantidad}) => acc + cantidad, 0)
 const nPrecio = Object.values(carrito).reduce((acc, {cantidad, precio}) => acc + cantidad * precio, 0)
 
