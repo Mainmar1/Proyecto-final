@@ -167,6 +167,17 @@ botonesEliminar.forEach(btn =>{
 }
 
 
+document.getElementById("btn_cerrar_sesion").addEventListener('click', ()=>{
+
+    window.location.href = "./index.html";
+    alert("¡La sesion se cerrro con exito!")
+
+})
+
+
+
+
+
 
 
 

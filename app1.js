@@ -10,6 +10,8 @@ document.addEventListener("click", (e) => {
   }
 });
 
+let ingreso = 0;
+
 document.getElementById("btnRegistrarse").addEventListener("click", (e) => {
   const name_usuario = document.getElementById("name_usuario").value;
   const email_usuario = document.getElementById("email_usuario").value;
@@ -73,9 +75,12 @@ document.getElementById("btnInicionSesion").addEventListener("click",(e)=>{
 
       if(emailValidated && passwordValidated) {
         window.location.href = "./carritoCompras.html";
-        alert("¡Accsess successfully!")
-      }else {
-        alert('email or password incorrect')
+        alert("¡Accsess successfully!");
+        ingreso = 1;
+        return ingreso;
+
+      }else if ( !emailValidated || !passwordValidated) {
+        alert('email or password incorrect');
       }
     }) 
 
