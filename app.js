@@ -169,8 +169,33 @@ botonesEliminar.forEach(btn =>{
 
 document.getElementById("btn_cerrar_sesion").addEventListener('click', ()=>{
 
-    window.location.href = "./index.html";
-    alert("¡La sesion se cerrro con exito!")
+    // let rta = confirm("Desea cerrar sesion?");
+
+
+    // if(rta){
+    //     window.location.href = "./index.html";
+    //     swal("¡La sesion se cerrro con exito!","","success");
+    // }
+
+    swal({
+        title: "Esas seguro que deseas cerrar sesion?",
+        text: "Si cierras sesion se perdera lo almacenado en el carrito",
+        icon: "warning",
+        buttons: true,
+        dangerMode: true,
+      })
+      .then((willDelete) => {
+        if (willDelete) {
+          swal("La cuenta se cerro con exito!", {
+            icon: "success",
+            
+          });
+          window.location.href = "./index.html";
+        } else {
+          swal("A seguir comprando!");
+        }
+      });
+    
 
 })
 

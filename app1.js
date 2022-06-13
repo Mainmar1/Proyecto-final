@@ -24,14 +24,14 @@ document.getElementById("btnRegistrarse").addEventListener("click", (e) => {
   const validationEmailRegistered = storageParsed.filter(element => element.email === email_usuario);
 
   if(validationEmailRegistered.length > 0) {
-    alert(`Please enter another email address, ${email_usuario} already in use`);
+    swal(`Please enter another email address, ${email_usuario} already in use`,"", "warning");
     return;
   }
    
   if (name_usuario === "" || email_usuario === "" || password_usuario === "") {
-    alert("Todos los campos de registro deben estar completos");
+    swal("Todos los campos de registro deben estar completos","","warning");
     return;} 
-    else{ alert("The account was successfully created")
+    else{ swal("Good Job!", "The account was successfully created", "success")
   $signUp.classList.toggle("active");
   $signIn.classList.toggle("active");}
 
@@ -57,7 +57,7 @@ document.getElementById("btnInicionSesion").addEventListener("click",(e)=>{
   let ingreso_password = document.getElementById("validacion_password").value
 
   if (ingreso_email === "" || ingreso_password === "") {
-    alert("Todos los campos de registro deben estar completos");
+    swal("Todos los campos de ingreso deben estar completos","","warning");
     return;
   }
 
@@ -65,7 +65,7 @@ document.getElementById("btnInicionSesion").addEventListener("click",(e)=>{
     JSON.parse(localStorage.getItem("registeredUsers")) ?? false;
 
     if(!storageParsed) {
-      alert('not registered users')
+      swal('not registered users');
       return;
     }
 
@@ -74,13 +74,10 @@ document.getElementById("btnInicionSesion").addEventListener("click",(e)=>{
       const passwordValidated = element.password.toUpperCase() === ingreso_password.toUpperCase() ?? false;
 
       if(emailValidated && passwordValidated) {
-        window.location.href = "./carritoCompras.html";
-        alert("¡Accsess successfully!");
-        ingreso = 1;
-        return ingreso;
-
+       swal("¡Access Successfully"," ", "success");
+       window.location.href = "./carritoCompras.html";
       }else if ( !emailValidated || !passwordValidated) {
-        alert('email or password incorrect');
+        swal('Email or password incorrect',"", "error");
       }
     }) 
 

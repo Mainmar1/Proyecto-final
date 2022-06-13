@@ -42,12 +42,14 @@ transition: all .5s ease-out;
 
 .welcome-back{
     display: flex;
+    margin-left: 55px;
     align-items: center;
     text-align: center;
 }
 
 .message{
     padding: 1rem;
+    margin-right: 55px;
 
 }
 
@@ -78,6 +80,7 @@ transition: all .5s ease-out;
     width: 400px;
     padding: 1rem;
     margin: 2rem;
+    border-radius: 4px;
     background-color: rgba(0, 0, 0, 0.847);
     text-align: center;
 }
