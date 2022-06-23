@@ -1,1 +1,2 @@
-InicionSesion seria el primer html para ingresar, el boton de inicio de sesion te lleva al carrito de compras y productos, me falta validar los datos ingresados en inicio de sesion y de crear cuenta, usando storage para almacenar los datos ingresados. La idea es que si ingresa bien o crea la cuenta, y luego ingresa lo lleve al carrito. 
+Utilizando fetch en el archivo carritoCompras.html
+Falta hacerle modificaciones, con un meno hamburguesa para el carrito y las diferentes secciones y organizar los productos por categoria(congelados, lacteos, etc.)
