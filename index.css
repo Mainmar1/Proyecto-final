@@ -61,7 +61,7 @@ transition: all .5s ease-out;
 .message button{
     padding: 1rem;
     font-weight: 400;
-    background-color: #4a4aee;
+    background-color: #ee9c4a;
     border-radius: 2rem;
     border: none;
     outline: none;
@@ -73,7 +73,7 @@ transition: all .5s ease-out;
 }
 
 .message button:hover{
-    background-color: #6464f8;
+    background-color:rgb(255, 115, 0);
 }
 
 .formulario{
@@ -125,21 +125,92 @@ transition: all .5s ease-out;
 
 .class_button1{
     display: flex;
-    align-items: center;
-    width: 20%;
+    justify-content: center;
+    align-self: center;
+    width: 59%;
     margin: auto;
-    border: solid thin white ;
-    padding: .7rem;
-    border-radius: 2rem;
+    border: solid thin #a5a5a5;
+    padding: 0.7rem;
+    border-radius: 5px;
     background-color: white;
     font-weight: 600;
     margin-top: 3rem;
     font-size: .8rem;
+    margin-left: 7px;
     cursor: pointer;
     color: #222;
+    margin-top: 0px;
 }
 
+.class_button1:hover{
+    background-color:#d0d0d0c2;
+}
+    
+.text-center{
+    font-family: 'Oswald', sans-serif;
+    padding:15px;
+    font-size: 50px;
+    background-color:rgba(171, 171, 171, 0.911);
+    border-radius: 5px;
+    border: double 3px black;
+}
 
+.my-5 {
+    padding: 10px;
+    background-color: #d0d0d0c2;
+    border-radius: 5px;
+    border: solid 1px black;
+}
+
+.my-5 h4{
+text-align: center;
+padding: 5px;
+}
+
+.navbar{
+    border-bottom: solid 2px black;
+}
+
+.carousel{
+    border-bottom: solid 2px black;
+}
+
+.class-footer{
+    background-color:rgba(171, 171, 171, 0.808);
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.class-footer_redes{
+    width: 30%;
+    display: flex;
+    justify-content:space-around;
+}
+.class-footer_redes a{
+    color: rgb(32, 30, 30);
+}
+.class-footer_redes a:hover{
+    color:rgb(255, 115, 0);
+}
+.class-footer_logo{
+    width:40%;
+    display: flex;
+    justify-content:center;
+}
+.class-logo{
+    width:80px;
+    height:80px;
+    border-radius: 100%;
+}
+.class-footer_creador{
+    font-size:20px;
+}
+
+.navbar-brand{
+    margin-left: -782px;
+}
 /* Hemos que se muestre Inicio Sesion o Crear cuenta, segun el boton que se haga click. */
 
 .sign-in{

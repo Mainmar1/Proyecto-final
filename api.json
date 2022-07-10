@@ -2,38 +2,111 @@
     {
         "precio": 800,
         "id": 1,
-        "title": "Café",
+        "title": "Café La virginia",
         "thumbnailUrl": "https://angelitagolosinas.com.ar/wp-content/uploads/2020/03/18-LA-VIRGINIA-CAFE-INST.-EN-SOBRE-36-X-1.7-GRS..jpg"
     },
     {
         "precio": 400,
         "id": 2,
-        "title": "Aceite",
+        "title": "Aceite Girasol x 900ml",
         "thumbnailUrl": "https://jumboargentina.vtexassets.com/arquivos/ids/614663-500-auto?v=637409202878630000&width=500&height=auto&aspect=true"
     },
     {
         "precio": 120,
         "id": 3,
-        "title": "Agua",
+        "title": "Agua king 500ml",
         "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_753182-MLA47245929998_082021-O.webp"
     },
     {
         "precio": 140,
         "id": 4,
-        "title": "Leche",
+        "title": "Leche La Serenisima",
         "thumbnailUrl": "https://ardiaprod.vteximg.com.br/arquivos/ids/219847-500-500/Leche-Entera-La-Serenisima-3--Larga-vida-1-Lt-_1.jpg?v=637790488158100000"
     },
     {
         "precio": 250,
         "id": 5,
-        "title": "Queso",
+        "title": "Queso Mardelplata x 100g",
         "thumbnailUrl": "https://alimaksrl.com.ar/wp-content/uploads/2021/03/queso-holanda-envasado-01.jpg"
     },
     {
         "precio": 150,
         "id": 6,
-        "title": "Galletitas",
+        "title": "Galletitas Frutigran",
         "thumbnailUrl": "https://elbanquito.com.ar/wp-content/uploads/2020/08/granix-frutigran-galletitas-dulces-x-255-grs-el-banquito-market.jpg"
+    },
+    {
+        "precio": 350,
+        "id": 7,
+        "title": "Yerba Mañanita x 500g",
+        "thumbnailUrl": "https://jumboargentina.vtexassets.com/arquivos/ids/657867-500-auto?v=637636221077330000&width=500&height=auto&aspect=true"
+    },
+    {
+        "precio": 420,
+        "id": 8,
+        "title": "Yerba Nobleza x 500g",
+        "thumbnailUrl": "https://ardiaprod.vteximg.com.br/arquivos/ids/222766-500-500/Yerba-Mate-Nobleza-Gaucha-sin-tacc-500-Gr-_1.jpg?v=637846951481100000"
+    },
+    {
+        "precio": 180,
+        "id": 9,
+        "title": "Azucar Ledesma",
+        "thumbnailUrl": "https://www.grupoelnene.com.ar/2215/azucar-ledesma-1kg.jpg"
+    },
+    {
+        "precio": 150,
+        "id": 10,
+        "title": "Azucar Arcor",
+        "thumbnailUrl": "https://ardiaprod.vteximg.com.br/arquivos/ids/211349-500-500/Azucar-Ledesma-refinado-Superior-1-Kg-_1.jpg?v=637663428249830000"
+    },
+    {
+        "precio": 250,
+        "id": 11,
+        "title": "Edulcorante Hileret clasico",
+        "thumbnailUrl": "https://836242.smushcdn.com/1713903/wp-content/uploads/2019/11/0527800010230E0-500x500.jpg?lossy=0&strip=1&webp=1"
+    },
+    {
+        "precio": 320,
+        "id": 12,
+        "title": "Edulcorante Hileret clasico",
+        "thumbnailUrl": "https://http2.mlstatic.com/D_NQ_NP_668149-MLA48121379282_112021-O.webp"
+    },
+    {
+        "precio": 220,
+        "id": 13,
+        "title": "Fideos Matarazzo Tallarines",
+        "thumbnailUrl": "https://danor.com.ar/wp-content/uploads/61232.jpg"
+    },
+    {
+        "precio": 260,
+        "id": 14,
+        "title": "Fideos Matarazzo Nidos Fetuccine",
+        "thumbnailUrl": "https://ardiaprod.vteximg.com.br/arquivos/ids/226444-500-500/Rigatti-Rina-Matarazzo-500-Gr-_1.jpg?v=637904606731170000"
+    },
+    {
+        "precio": 320,
+        "id": 15,
+        "title": "Fideos Matarazzo Nido Fettuccine",
+        "thumbnailUrl": "https://danor.com.ar/wp-content/uploads/61201.jpg"
+    },
+    {
+        "precio": 200,
+        "id": 16,
+        "title": "Sprite 1.5 Sin Azucar",
+        "thumbnailUrl": "https://ardiaprod.vteximg.com.br/arquivos/ids/187109-500-500/GASEOSA-SPRITE-ZERO-AZUCAR-15LT_1.jpg?v=637427599492570000"
+    },
+    {
+        "precio": 220,
+        "id": 17,
+        "title": "Fanta 1.75",
+        "thumbnailUrl": "https://jumboargentina.vtexassets.com/arquivos/ids/581248-500-auto?v=637225178108430000&width=500&height=auto&aspect=true"
+    },
+    {
+        "precio": 320,
+        "id": 15,
+        "title": "Coca-Cola 2.25",
+        "thumbnailUrl": "https://ardiaprod.vteximg.com.br/arquivos/ids/218615-500-500/Gaseosa-CocaCola-Sabor-Original-225-Lts-_1.jpg?v=637769738913700000"
     }
     
 ]
+
